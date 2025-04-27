@@ -3,7 +3,6 @@
 import pandas as pd
 from .utils import calculate_days_between_months
 
-
 class ReliabilityMetricsCalculator:
     def __init__(self, data: pd.DataFrame):
         self.data = data.copy()
