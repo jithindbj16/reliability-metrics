@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reliability-metrics"
+version = "0.1.0"
+description = "Compute hardware reliability and service metrics easily from shipment and return data."
+authors = [
+  { name="YOUR NAME", email="your.email@example.com" },
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+  "pandas"
+]
