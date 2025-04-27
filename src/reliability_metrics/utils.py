@@ -1,6 +1,7 @@
 # src/reliability_metrics/utils.py
 
 from datetime import datetime
+import pandas as pd
 
 def calculate_days_between_months(start_month, end_month):
     """Calculate number of days between two months."""
